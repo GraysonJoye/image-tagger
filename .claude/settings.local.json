@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m django startproject core .)",
+      "Bash(python manage.py startapp images)",
+      "Bash(pip install:*)",
+      "Bash(python manage.py makemigrations)",
+      "Bash(python manage.py migrate)",
+      "Bash(python -c \":*)",
+      "Bash(python:*)"
+    ]
+  }
+}
